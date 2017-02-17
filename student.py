@@ -14,5 +14,8 @@ class Student():
         print("His height is " + self.height + " cm.")
         print("His favorite icecream color is " + self.favorite_icecream_color)
               
-
+    def get_giraffe_gap(self):
+        giraffe_height = 500
+        giraffe_gap = giraffe_height - int(self.height)
+        return giraffe_gap
         
